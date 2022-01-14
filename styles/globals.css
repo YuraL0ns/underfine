@@ -1,16 +1,128 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  backgorund: #fff;
+  color: #000;
+  font-family: 'Comfortaa';
+}
+.indexBtnContacts {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #7FDEFC;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+}
+.indexBtnContacts:hover{
+  background: #7F84FC;
+}
+.indexBtnContacts a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+.flc {
+  margin: 0 auto;
+  width: 95%;
+}
+header {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between ;
+  width: 95%;
+  margin: 0 auto;
+}
+.navMenu {
+  color : #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+}
+.navMenu+.navMenu {
+  margin-left: 20px;
+}
+.logotype {
+  font-weight: 800;
+  font-size: 20px;
+}
+main {
+  margin-top: 100px;
+}
+.mainH3 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.mainUl {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+.mainUl {
+  list-style-type: none;
+}
+.worksIndex{ 
+  margin-top: 100px;
+}
+.row  {
+  display: inline;
+}
+.content {
+  margin: 0 auto;
+  width: 95%;
+}
+.copyright {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.copySpan {
+  background: #FC867F;
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.flexWork {
+  display: flex;
+  justify-content: space-between;
+}
+.workSpan {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.wIndexCard{
+  width: 400px;
+  height: 350px;
+  background-color: #FCFCFC;
+  border-radius: 25px;
+}
+.btnLookAllWork {
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+}
+.btnWorksIndex{
+  background-color: #7FDEFC;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+.btnWorksIndex:hover {
+  background-color: #68C9E8;
 }

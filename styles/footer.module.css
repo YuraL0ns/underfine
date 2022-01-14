@@ -1,0 +1,13 @@
+.copyright {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.copySpan {
+  background: #FC867F;
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 15px;
+}
